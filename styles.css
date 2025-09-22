@@ -116,11 +116,20 @@ nav {
 }
 
 .wordmark {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
     font-size: 1.5rem;
     font-weight: 700;
     color: var(--accent);
     text-decoration: none;
     transition: color 200ms ease;
+}
+
+.logo-icon {
+    width: 32px;
+    height: 32px;
+    flex-shrink: 0;
 }
 
 .wordmark:hover {
